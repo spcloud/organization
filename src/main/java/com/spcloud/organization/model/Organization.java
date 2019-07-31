@@ -9,14 +9,20 @@ import java.io.Serializable;
  **/
 public class Organization implements Serializable {
     private static final long serialVersionUID = 7671418819256082391L;
-    private String id;
+    /**
+     * id
+     */
+    private Integer id;
+    /**
+     * 名称
+     */
     private String name;
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
